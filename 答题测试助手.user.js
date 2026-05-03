@@ -2,7 +2,7 @@
 // @name         答题测试助手
 // @namespace    https://example.com/userscripts
 // @version      1.0
-// @description  适配旧版 #tmNr/#tm、新版 .right_part 以及第三阶段 .kuang-nr 结构的单选/多选题：支持内置/本地/远程题库自动答题，从“正确答案”自动学习写入本地题库，连续多题自动识别，含模糊匹配、多选逐点点击修复；悬浮窗左下角显示并可收起；剪贴板导出兼容 ScriptCat/Tampermonkey。
+// @description  适配三种学生自选页面风格（#tmNr/#tm、.right_part、.kuang-nr）的单选/多选题：支持内置/本地/远程题库自动答题，从"正确答案"自动学习写入本地题库，连续多题自动识别，含模糊匹配、多选逐点点击修复；悬浮窗左下角显示并可收起；剪贴板导出兼容 ScriptCat/Tampermonkey。
 // @match        *://*/*
 // @grant        GM_getValue
 // @grant        GM_setValue
